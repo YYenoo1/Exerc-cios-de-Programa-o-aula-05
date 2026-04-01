@@ -9,13 +9,12 @@ while x!=0:
     if x%2!=0:
         impar+=1
         cont+=1
-        mediag+=x
     else:
         par+=1
         contpar+=1
         cont+=1
         mediap+=x
-        mediag+=x
+    mediag+=x
     x=int(input('coloque um numero inteiro: '))
 medpar=mediap/contpar
 medgeral=mediag/cont
